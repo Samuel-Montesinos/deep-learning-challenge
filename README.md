@@ -25,3 +25,6 @@ Although our model did not achieve the goal accuracy of 75%, we can still see a 
 
 ## Summary
 In summary, our model will be able to identify a successful organization more often than not, however the results are not confident enough to justify its routine use. We could try a random forest model to further increase our accuracy. This model would work better as it allows the variables to be far more varied. Essentially the same justification that I had for using the sigmoid activation. The lack of binary data will impede the standard model. 
+
+## Documentation used as reference
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
